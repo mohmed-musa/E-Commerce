@@ -111,8 +111,8 @@ const Product = () => {
 
  
 
-<div className=" mt-5 p-0 mt-3">
-  <div className="row m-0 p-0">
+<div className=" mt-5 pt-3 mt-3">
+  <div className="row my-5 p-0">
     <div className="col-md-9 m-0 p-0">
         <Slider {...settings}>
           <div className="m-0 p-0">

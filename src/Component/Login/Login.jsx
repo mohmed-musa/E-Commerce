@@ -62,8 +62,8 @@ const Login = () => {
 
   return (
     <>
-      <div className="m-auto w-75 mt-4">
-        <h1 className="display-5 fw-bold mb-3">Login Now: </h1>
+      <div className="m-auto w-75 mt-5 pt-5">
+        <h1 className="display-5 fw-bold mt-5 my-3">Login Now: </h1>
 
         {no ? (
           <div className="alert alert-danger">

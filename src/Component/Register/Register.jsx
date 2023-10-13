@@ -89,7 +89,7 @@ error.phone = "Number must be 10 to 20 number"
 
 return<>
 
-<div className='m-auto w-75 mt-4'>
+<div className='m-auto w-75  mt-5 pt-5'>
 <h1 className='display-5 fw-bold mb-3'>Register Now: </h1>
 
 

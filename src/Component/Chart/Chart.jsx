@@ -39,7 +39,8 @@ async function clear(){
 
 
 return <>
-<div className="container my-4 bg-light p-3 king" style={{borderRadius:"5px"}}>
+<div className="pt-5">
+<div className="container my-4  bg-light p-3 king" style={{borderRadius:"5px"}}>
 <h2>Shop Cart:</h2>
 <h4>Total Item: {allCountNumber}</h4>
 <h4>Total Cart Price: {totalCardPrice} EGP</h4>
@@ -47,8 +48,10 @@ return <>
 <button onClick={clear} className='btn btn-success'>Clear All Cart</button>
 <Link to={"/payment"} className='btn btn-success'>Make Order</Link>
 </div>
+</div>
+
 {infoItemAdded?.map((elm,idx)=>{
-return <div key={idx} className="row mt-5 align-items-center">
+return <div key={idx} className="row mt-5 align-items-center pt-5">
     
     <div className="col-md-1">
         <img src={elm.product.imageCover} alt="img" className='w-100' />

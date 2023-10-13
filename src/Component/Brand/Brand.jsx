@@ -41,7 +41,7 @@ if(data?.data.data == undefined){
 
 
 
-    <div className="container">
+    <div className="container pt-5">
         <h1 className='text-center text-success my-3 display-3 fw-bold' >All Brands</h1>
         <div className="row">
             {data?.data.data.map(function(elm,idx) {
